@@ -1,5 +1,7 @@
 //this is single line comment
 /* this is multi line comment*/
+//import java.lang.*;   default import
+
 
 class frist{
     public static void main(String args[]){

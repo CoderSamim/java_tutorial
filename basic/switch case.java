@@ -23,5 +23,6 @@ class demo{
 /*   x(variable)=value
 
     switch(variable){
-        case value: statement;
+        case value: statement;   
     }
+*/
