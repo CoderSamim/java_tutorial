@@ -1,0 +1,48 @@
+
+int x=10    // x is variable/ data type and 10 is constant/ literal(represent a value)
+
+                              DataType
+                                 |
+                                 |
+                -------------------------------------
+                |                                   |
+             primitive                     non-primitive
+               |                                |
+      -------------------------              array,String,class(object),interface,
+      |                       |
+   boolean                 numeric
+   ( 1 bit )                 |
+      (false)       -----------------------
+                    |                     |
+                  char                  integral
+                 (2 Byte)                  |
+                ('\u0000')       ---------------------
+                                 |                   |
+                              integer              floating point
+                                |                        |
+                     ----------------------              --------------
+                     |     |      |       |              |            |
+                  byte   short   int      long           float       double
+Default Size  (1 Byte) (2 Byte) (4 Byte) (8 Byte)       (4 Byte)     (8 Byte)
+Default value   (0)       (0)      (0)     (0L)         (0.0f)        (0.0d)
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                                       Type Casting
+                                            |
+                        -------------------------------------------
+                        |                                         |
+            widening casting(automatic)                   Narrow casting(manually)
+byte-->short-->char-->int-->long-->float-->double   
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+                                            Naming Convention
+
+1. Class , Interface-------- only first letter capital
+2. CONSTANT-------all lettar capital
+3. method , variable-------- camleCase
+4. package-----all small letter
+

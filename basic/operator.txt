@@ -1,0 +1,50 @@
+
+1. unary  ( a++, a--, ++a, --a, -a )
+
+2. arithmetic  (*, /, %, +, -)
+
+// + use to concatinate two strings
+
+3. bitwise shift-------------------
+                              |
+                -----------------------------
+                |             |              |
+         left shift      right shift        Zero fill right shift
+         (x<<2)             (x>>2)            (x>>>2)
+
+
+4. Relational   (<, >, <=, >=, instanceof, ==, !=)        // used under if(a>b)
+
+//boolean x= emp instanceof Employee;
+         we check if emp is a object of Employee class
+
+
+5. Bitwise / boolean    
+               &  -------- and    (a&b)
+               ^  -------- xor/ exclusive or
+               |  ------- or / inclusive or
+               ~ (bitwise only)  ------- complement   (~x)
+               ! (boolean only)  ------- not   (!x)
+
+
+6. Logical   
+           &&  -----and
+           ||  -----or               //use under if(a>b && b<c)
+           !   -----not
+
+
+7.Ternary / conditional operator   (?:)
+        if(a>b)
+            max=a;
+        else max=b;
+
+        short:   max= (a>b) ? a : b;
+        
+
+8. member operator  (.)
+9. cast operator    int x= (byte)y;
+10. new operator     // create object of a class on the heap memory by JVM,dynamically(at run time)
+
+11. assignment operator  (=)
+
+

@@ -1,0 +1,16 @@
+break  -------- come out/come end of   loop and switch block
+
+return --------come out from calling method and return value
+
+continue ------- 
+
+          int i;
+          for(i=0;i<=10;i++){
+              if(i>=7){
+                continue;
+              }
+          System.out.print(i + "\n");}
+
+
+// from 7 i is not printing (skip)
+

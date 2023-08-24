@@ -1,0 +1,18 @@
+
+1. hello world
+
+2. name and data types and type casting
+3. operators
+4. control statement(loop and if else , switch case, break, continue,return)
+5. input output
+
+
+6. array , string, stringBuffer, stringBuilder
+
+
+7. basic opps(class,object,method,scope of variable,constructor)
+         //inner class, wrapper class
+8. pillar of oops (abstraction, inheritance, encapsulation,polymorphism)
+9. exception handling
+10. file handling
+11. collection framework
