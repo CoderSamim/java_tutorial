@@ -1,0 +1,5 @@
+suppose arr[] is an arry
+
+1. arr.length  ------ gives the number of rows of array
+
+2. for 2D array-  

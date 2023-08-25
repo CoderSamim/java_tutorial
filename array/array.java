@@ -27,7 +27,7 @@ class demo{
         
             marks[i] = sc.nextInt();
         }
-
+        
        
         //print array
        for(int i=0;i<5;i++){

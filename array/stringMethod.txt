@@ -1,0 +1,53 @@
+suppose    String s1,s2,s3;
+           int n;
+
+s2='samim hossain';
+s3='molla';
+
+1.  s1= s2.concat(s3);     // s1= s2+s3;
+
+2. n= s2.length();   // return type int
+3. s1= s2.charAt(int i);  //return type char    and i is index of element in string  (suppose i=3)
+
+4. s1= s2.startsWith("A");  //return type boolean  , if s2 first element is "A" or not
+          endWith("s");
+          
+5. s1= s2.substring(0,5);  //return type string   ,  starting from 0 to 4 index (1 index less)
+ 
+6. s1= s2.toUpperCase();    //return type string
+           toLowerCase();
+
+7.     s2.getChars(0,5,  s1,0);   //copy from s2 into s1 starting from 0th to 4th  and  s2 index start with 0.
+       System.out.print(s1);      //return type string
+
+
+8. s1[]= s2.split(" ");   // split the string where (" ") is found in s2.  we can split with anything.
+                          //return type string arry
+
+9. s1= s2.replace('m' , 'n');   // replace all m by n in s2.     and return type string
+
+10. s1= s2.trim();    //remove spaces from the beginning and the ending only . not from the middle   
+
+11. suppose   s1= "This is a book";
+              s2= "is";   // s2 is a substring of s1
+
+       n= s1.indexOf(s2);     // "is" is present in 2nd and 5th index but it returns first position only(here 2nd)
+                              // if s2 is not found in s1 , the it retuns some negative value
+                              //retun type int
+
+12. n= s1.lastIndexOf(s2);  // here it retuns last position only(here 5th) 
+
+----------------------------------------------------------------------------------------------------------------------------------
+                                           comparision of string
+
+Logical operators( ==, <, >,etc...)  compare only object reference(which is a hexaDecimal number) , 
+ so for string this operators are not used for string compare.
+
+ here we used equals(), equalsIgnoreCase(), compareTo(), compareToIgnoreCase()
+
+ // "Box" is not same "BOX" ---case sensitive
+
+ 13. g= s1.compareTo(s2);  // if s1 and s2 is same ,return 0, if s1>s2 return positive valu , if s1<s2 return negative value
+
+    
+
