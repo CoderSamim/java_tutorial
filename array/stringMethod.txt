@@ -43,11 +43,12 @@ s3='molla';
 Logical operators( ==, <, >,etc...)  compare only object reference(which is a hexaDecimal number) , 
  so for string this operators are not used for string compare.
 
- here we used equals(), equalsIgnoreCase(), compareTo(), compareToIgnoreCase()
+here we used equals(), equalsIgnoreCase(), compareTo(), compareToIgnoreCase()
 
  // "Box" is not same "BOX" ---case sensitive
 
  13. g= s1.compareTo(s2);  // if s1 and s2 is same ,return 0, if s1>s2 return positive valu , if s1<s2 return negative value
 
-    
+14. g= s1.equals(s2);   // if s1=s2 return true, otherwise return false
+
 

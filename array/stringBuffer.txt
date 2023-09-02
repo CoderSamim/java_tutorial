@@ -1,0 +1,33 @@
+String and StringBuffer are similar and use similar method (length, subString, indexOf, lastIndexOf)
+
+String immutable/can not be modified. but StringBuffer are mutable/can be modified
+
+//how to create StringBuffer object
+
+StringBuffer sb= new StringBuffer();
+or, 
+   StringBuffer sb= new StringBuffer("hello");
+
+// some method for StringBuffer
+
+1. sb.append("hi");   //add at last
+2. sb.insert(1,"lol");   // add at index 1st
+3. sb.delete(2,7);  // delete from 2nd to 6th index
+4. sb.reverse();
+5. sb.replace(1,8, "lol");    //replace characters from 1st to 7th by lol
+                     //in string replace all m by n   // str.replace(m,n)
+
+
+6. convert the StringBuffer object into a String
+
+sb.toString();
+-----------------------------------------------------------------------------
+StringBuffer is similar to StringBuilder
+
+## synchronized : does not allow more than one 1 thread to act simultaneously on the object.
+
+StringBuffer is synchronized but StringBuilder is not.
+
+1. if use several threads , then use StringBuffer for reliable result.
+2. if used only one thread , then use StringBuilder for improves execution time.
+

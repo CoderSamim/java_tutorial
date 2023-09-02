@@ -1,0 +1,23 @@
+//this is about how to create a class and object
+
+
+
+
+
+//this about 4 pillar of oops
+
+
+
+
+
+
+//this is about constructor
+
+
+
+
+
+
+//this is about method
+
+
